@@ -1,16 +1,20 @@
 @charset "utf-8";
 
-/* estilo print */
-nav{
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+nav {
     display:none;
 }
 
-p {
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+    color:purple;
+    text-align: right;
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 3em;
+p {
+    text-align: justify;
+    margin-top: 30px;
 }

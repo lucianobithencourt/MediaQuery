@@ -1,28 +1,50 @@
 @charset "utf-8";
 
-/* estilo screen */
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 , p {
-    margin: 10px;
-    text-align: justify;
+h1 {
+    text-align: center;
+    margin-bottom:9px;
+    padding:7px;
+    background-color: greenyellow;
 }
 
-ul {
-    background-color: grey;
-}
-
-a {
-    text-decoration: none;
-    
+nav {
+    background-color: aqua;
+    padding:10px;
 }
 
 li {
     display: inline-block;
-    margin-left: 5px;
-    background-color: lightgray;
-    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+   
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+a:hover {
+    background-color:purple;
+    color: white;
+    font-size: bold;
+    border-radius: 3px;
+}
+
+article > p {
+    margin-top: 20px;
+    padding:10px;
+    line-height: 1.2em;
+    text-indent: 20px;
+    text-align: justify;
+}
+body {
+    background-color: lightgreen;
 }
